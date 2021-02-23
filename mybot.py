@@ -1,9 +1,9 @@
 import settings
-import logging
+# import logging
 from datetime import datetime
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-logging.basicConfig(filename='bot.log', level=logging.INFO)
+# logging.basicConfig(filename='bot.log', level=logging.INFO)
 
 def greet_user(update, context):
     print('Пользователь нажал START')
@@ -28,7 +28,7 @@ def main():
     dp.add_handler(CommandHandler('start', greet_user))
     dp.add_handler(MessageHandler(Filters.text, talk_to_me))
 
-    logging.info('** БОТ СТАРТОВАЛ **')
+    # logging.info('** БОТ СТАРТОВАЛ **')
 
     mybot.start_polling()
     mybot.idle()
