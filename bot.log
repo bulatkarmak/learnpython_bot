@@ -1,0 +1,62 @@
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/bulat/Library/Python/3.8/lib/python/site-packages/telegram/ext/dispatcher.py", line 442, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/bulat/Library/Python/3.8/lib/python/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "mybot.py", line 15, in talk_to_me
+    update.message.reply(user_text)
+AttributeError: 'Message' object has no attribute 'reply'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/bulat/Library/Python/3.8/lib/python/site-packages/telegram/ext/dispatcher.py", line 442, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/bulat/Library/Python/3.8/lib/python/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "mybot.py", line 17, in talk_to_me
+    current_time = datetime.now('Сейчас %H:%M')
+TypeError: tzinfo argument must be None or of a tzinfo subclass, not type 'str'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:** БОТ СТАРТОВАЛ **
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
